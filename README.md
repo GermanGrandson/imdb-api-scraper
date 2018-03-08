@@ -17,4 +17,4 @@ This is a Rails API that acts as an endpoint that provides data from IMDB for Ac
 
 ```localhost:3000/actors?month=2&day=2&amount=10&all=true```
 
-###**Note: 😵 If you request every page available (*all=true*) and have a big amount provided or set by default (amount=50), the API request may take up to 24 minutes to scrape everything 😵**
+### **Note: 😵 If you request every page available (*all=true*) and have a big amount provided or set by default (amount=50), the API request may take up to 24 minutes to scrape everything 😵**
