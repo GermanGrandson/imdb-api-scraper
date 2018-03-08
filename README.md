@@ -12,7 +12,7 @@ This is a Rails API that acts as an endpoint that provides data from IMDB for Ac
 - *amount*: Provide a number of actors you would like to be retrieved per page. Each page has a max of 50 actors. **If no amount parameter is provided, it will default to 50 and obtain every actor on the IMDB page**
 - *all*: Provide **true** If you would like to retrieve **ALL** actors available on IMDB for the month/day provided
 
-##Example API Call
+## Example API Call
 *The following api call will retrieve the first 10 actors of every page available for the birthday combination of 02/02*
 
 ```localhost:3000/actors?month=2&day=2&amount=10&all=true```
